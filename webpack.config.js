@@ -7,9 +7,8 @@ module.exports = {
     mode: 'development',
     entry: './js/script.js',
     output: {
-        filename: 'bundle.js',
-        path: __dirname + '/js',
-        publicPath: "/webpack-demo/",
+        filename: './bundle.js',
+        path: __dirname + './js',
     },
     watch: true,
 
